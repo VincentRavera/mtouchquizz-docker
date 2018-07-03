@@ -9,7 +9,7 @@ services:
       - MARIADB_DATABASE=bitnami_wordpress
       - ALLOW_EMPTY_PASSWORD=yes
   mtouchquizz:
-    image: 'mtouchquizz'
+    image: 'vincentravera/mtouchquizz-docker'
     labels:
       kompose.service.type: nodeport
     ports:
